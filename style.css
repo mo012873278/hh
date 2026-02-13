@@ -1,7 +1,8 @@
 body{
     margin: 1;
     direction: rtl;
-    background-color: rgb(160, 192, 183)
+    background-color: rgb(160, 192, 183);
+    text-align:centre;
 }
 p{
     font-weight: bold;
@@ -95,4 +96,5 @@ hr{
 .name a{
     margin-right: 13px;
 }
+
 
