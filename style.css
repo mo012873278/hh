@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    direction: rtl;
+    background-color: rgb(160, 192, 183)
+}
+p{
+    font-weight: bold;
+}
+.zad{
+    text-align: center;
+    background-color: rgb(231, 198, 9);
+    border-radius : 25px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.zad div{
+    animation: zed 2s ;
+}
+@keyframes zed{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+.zad h1{
+    font-size: xxx-large;
+}
+.zad p{
+    font-size: x-large;
+    margin-top: -10px;
+}
+nav{
+   background-color: green;
+   width: 100%;
+   margin: 12px 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 6px;
+}
+.mark{
+    font-size: xx-large;
+    text-align: center;
+}
+.mark-2{
+    font-size: x-large;
+    text-align: center;
+}
+b{
+    font-size: 21px;
+    background-color: rgba(50, 160, 160, 0.692);
+}
+.pragraf{
+    text-align: center;
+    font-size: 22px;
+}
+.hdis{
+    height: 90px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+.link2{
+    color:gold;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.name{
+    text-align: center;
+    font-size: x-large;
+}
+.name a{
+    margin-right: 13px;
+}
