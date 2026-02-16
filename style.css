@@ -63,7 +63,7 @@ nav ul li a{
     font-size: x-large;
     text-align: center;
 }
-.b {
+b {
     font-size: 21px;
     background-color: rgba(50, 160, 160, 0.692);
 }
@@ -96,6 +96,7 @@ hr{
 .name a{
     margin-right: 13px;
 }
+
 
 
 
